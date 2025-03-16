@@ -59,6 +59,12 @@
     line-height: auto;
 
 }
+.form-container input:hover,
+.form-container textarea:hover {
+    border-bottom: solid 2px white;
+    background-color: #a80808; 
+    transition: 0.3s ease-in-out;
+}
 
 .form-container ::placeholder {
     color: white;
